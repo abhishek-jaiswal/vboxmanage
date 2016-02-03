@@ -1,0 +1,13 @@
+---
+  - name: Running playbook
+    hosts: compute_host
+    vars_files:
+      - group_vars/all
+    tasks:
+      - name: Ensures {{project_root}}/conf dir exists
+        file: path={{project_root}}/conf state=directory
+
+      - name: Copy file
+        template:
+          src: code.conf.j2
+          dest: "{{project_root}}/conf/code.conf"

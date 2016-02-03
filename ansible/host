@@ -1,0 +1,5 @@
+[compute_host]
+compute ansible_ssh_host=127.0.0.1 ansible_ssh_port=1100 ansible_connection=ssh ansible_ssh_user='ubuntu' ansible_ssh_pass='ubuntu' ansible_sudo_pass='ubuntu'
+
+[compute_host2]
+compute ansible_ssh_host=localhost ansible_connection=ssh ansible_ssh_user='abhishekj' ansible_ssh_pass='pramati123'
