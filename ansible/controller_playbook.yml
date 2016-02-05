@@ -1,0 +1,9 @@
+---
+  - name: Controller Node Operations
+    hosts: controller_host
+    tasks:
+      - name: install the latest version of chrony
+        package: name=chrony state=latest
+
+      - name: restart chrony
+        service: name=httpd state=restarted

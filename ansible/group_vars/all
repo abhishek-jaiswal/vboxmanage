@@ -4,3 +4,23 @@ project_root: /tmp/abhishek
 proxy_env:
     http_proxy: "http://mirrors.it.att.com"
     https_proxy: "http://mirrors.it.att.com"
+Password:
+    ADMIN_PASS: admin_pass
+    CEILOMETER_DBPASS: admin_pass
+    CEILOMETER_PASS: admin_pass
+    CINDER_DBPASS: admin_pass
+    CINDER_PASS: admin_pass
+    DASH_DBPASS: admin_pass
+    DEMO_PASS: admin_pass
+    GLANCE_DBPASS: admin_pass
+    GLANCE_PASS: admin_pass
+    HEAT_DBPASS: admin_pass
+    HEAT_DOMAIN_PASS: admin_pass
+    HEAT_PASS: admin_pass
+    KEYSTONE_DBPASS: admin_pass
+    NEUTRON_DBPASS: admin_pass
+    NEUTRON_PASS: admin_pass
+    NOVA_DBPASS: admin_pass
+    NOVA_PASS: admin_pass
+    RABBIT_PASS: admin_pass
+    SWIFT_PASS: admin_pass
